@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_store_game" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-3 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="eaA-ZO-YW1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="KwA-t4-Kot"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KwA-t4-Kot"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eaA-ZO-YW1" secondAttribute="trailing" id="1Vb-tg-kUu"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="1hZ-Nf-nrc"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1wk-ry-OCu"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="309-HL-Vp8"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AHc-7W-1Yo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eaA-ZO-YW1" secondAttribute="trailing" constant="-20" id="Aqy-iz-25n"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Cm2-E8-0It"/>
+                            <constraint firstAttribute="trailing" secondItem="eaA-ZO-YW1" secondAttribute="trailing" id="FzL-oh-Tct"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="UhN-2q-E9S"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hG3-De-vOM"/>
+                            <constraint firstItem="eaA-ZO-YW1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oLG-LD-agH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1Vb-tg-kUu"/>
+                                <exclude reference="1hZ-Nf-nrc"/>
+                                <exclude reference="309-HL-Vp8"/>
+                                <exclude reference="AHc-7W-1Yo"/>
+                                <exclude reference="Aqy-iz-25n"/>
+                                <exclude reference="UhN-2q-E9S"/>
+                                <exclude reference="hG3-De-vOM"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="522" y="356"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background-3 (1)" width="3840" height="2160"/>
+    </resources>
 </document>

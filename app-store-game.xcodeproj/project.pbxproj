@@ -14,6 +14,7 @@
 		3EF1E1781C123C8E007A3A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E1761C123C8E007A3A91 /* LaunchScreen.storyboard */; };
 		3EF1E1831C123C8E007A3A91 /* app_store_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E1821C123C8E007A3A91 /* app_store_gameTests.swift */; };
 		3EF1E18E1C123C8E007A3A91 /* app_store_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E18D1C123C8E007A3A91 /* app_store_gameUITests.swift */; };
+		3EF1E19C1C123CF1007A3A91 /* GameThings in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E19B1C123CF1007A3A91 /* GameThings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3EF1E1891C123C8E007A3A91 /* app-store-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-store-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF1E18D1C123C8E007A3A91 /* app_store_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_store_gameUITests.swift; sourceTree = "<group>"; };
 		3EF1E18F1C123C8E007A3A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF1E19B1C123CF1007A3A91 /* GameThings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameThings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3EF1E1741C123C8E007A3A91 /* Assets.xcassets */,
 				3EF1E1761C123C8E007A3A91 /* LaunchScreen.storyboard */,
 				3EF1E1791C123C8E007A3A91 /* Info.plist */,
+				3EF1E19B1C123CF1007A3A91 /* GameThings */,
 			);
 			path = "app-store-game";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF1E1781C123C8E007A3A91 /* LaunchScreen.storyboard in Resources */,
+				3EF1E19C1C123CF1007A3A91 /* GameThings in Resources */,
 				3EF1E1751C123C8E007A3A91 /* Assets.xcassets in Resources */,
 				3EF1E1731C123C8E007A3A91 /* Main.storyboard in Resources */,
 			);
