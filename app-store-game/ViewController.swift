@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     func asteroTimer()
     {
         astroCounter+=1.7
-        
+
                 var frame : CGRect = CGRectMake(133, 30, 95, 95)
                 if self.view.viewWithTag(1)?.frame.origin.x == 3
                 {
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                 ivAstro.image = UIImage(named: "aestroid_brown")
                 ivAstro.tag = 10
                 self.view.addSubview(ivAstro)
-                UIView.animateWithDuration(4.0, animations: {ivAstro.frame.origin.y = 600})
+                UIView.animateWithDuration(2.0, animations: {ivAstro.frame.origin.y = 600})
     }//asteroTimer
     
     //swipe function
