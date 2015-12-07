@@ -65,12 +65,12 @@ class ViewController: UIViewController {
                 {
                     frame = CGRectMake(230, -90, 95, 95)
                 }//else if
+        
                 let ivAstro : UIImageView = UIImageView(frame: frame)
                 ivAstro.image = UIImage(named: "aestroid_brown")
                 ivAstro.tag = 10
                 self.view.addSubview(ivAstro)
                 UIView.animateWithDuration(4.0, animations: {ivAstro.frame.origin.y = 600})
-        
     }//asteroTimer
     
     //swipe function
