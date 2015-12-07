@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         //timer
         astroTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "asteroTimer", userInfo: nil, repeats: true)
         normalTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "Timer", userInfo: nil, repeats: true)
-        
 
         //swipes
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
