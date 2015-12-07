@@ -43,7 +43,8 @@ class ViewController: UIViewController {
     func Timer()
     {
         TimerCounter++
-    }
+        lblHp.text = "\(TimerCounter)"
+    }//Timer
     
     //timer function
     func asteroTimer()
