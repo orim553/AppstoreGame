@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E534B9D1C18CE1500E6835B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E534B9C1C18CE1500E6835B /* SettingsViewController.swift */; };
+		3E534B9F1C18CE2B00E6835B /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E534B9E1C18CE2B00E6835B /* LevelsViewController.swift */; };
+		3E534BAA1C1B269C00E6835B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E534BA91C1B269C00E6835B /* heart.png */; };
 		3EF1E16E1C123C8E007A3A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E16D1C123C8E007A3A91 /* AppDelegate.swift */; };
 		3EF1E1701C123C8E007A3A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E16F1C123C8E007A3A91 /* ViewController.swift */; };
 		3EF1E1731C123C8E007A3A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E1711C123C8E007A3A91 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E534B9C1C18CE1500E6835B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3E534B9E1C18CE2B00E6835B /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		3E534BA91C1B269C00E6835B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		3EF1E16A1C123C8D007A3A91 /* app-store-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-store-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF1E16D1C123C8E007A3A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF1E16F1C123C8E007A3A91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E534BA01C18CE4100E6835B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E16F1C123C8E007A3A91 /* ViewController.swift */,
+				3EF1EB4A1C15F5430088FE82 /* HomeViewController.swift */,
+				3E534B9E1C18CE2B00E6835B /* LevelsViewController.swift */,
+				3E534B9C1C18CE1500E6835B /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		3EF1E1611C123C8D007A3A91 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +118,9 @@
 		3EF1E16C1C123C8E007A3A91 /* app-store-game */ = {
 			isa = PBXGroup;
 			children = (
+				3E534BA91C1B269C00E6835B /* heart.png */,
 				3EF1E16D1C123C8E007A3A91 /* AppDelegate.swift */,
-				3EF1E16F1C123C8E007A3A91 /* ViewController.swift */,
-				3EF1EB4A1C15F5430088FE82 /* HomeViewController.swift */,
+				3E534BA01C18CE4100E6835B /* View Controllers */,
 				3EF1E1711C123C8E007A3A91 /* Main.storyboard */,
 				3EF1E1741C123C8E007A3A91 /* Assets.xcassets */,
 				3EF1E1761C123C8E007A3A91 /* LaunchScreen.storyboard */,
@@ -240,6 +257,7 @@
 			files = (
 				3EF1E1781C123C8E007A3A91 /* LaunchScreen.storyboard in Resources */,
 				3EF1E19C1C123CF1007A3A91 /* GameThings in Resources */,
+				3E534BAA1C1B269C00E6835B /* heart.png in Resources */,
 				3EF1E1751C123C8E007A3A91 /* Assets.xcassets in Resources */,
 				3EF1E1731C123C8E007A3A91 /* Main.storyboard in Resources */,
 			);
@@ -267,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF1E1701C123C8E007A3A91 /* ViewController.swift in Sources */,
+				3E534B9F1C18CE2B00E6835B /* LevelsViewController.swift in Sources */,
 				3EF1E16E1C123C8E007A3A91 /* AppDelegate.swift in Sources */,
 				3EF1EB4B1C15F5430088FE82 /* HomeViewController.swift in Sources */,
+				3E534B9D1C18CE1500E6835B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
